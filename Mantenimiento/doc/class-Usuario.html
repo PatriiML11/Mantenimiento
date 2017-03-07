@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Usuario | Mantenimiento</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DBPDO.html">DBPDO</a></li>
+				<li><a href="class-Departamento.html">Departamento</a></li>
+				<li><a href="class-DepartamentoPDO.html">DepartamentoPDO</a></li>
+				<li class="active"><a href="class-Usuario.html">Usuario</a></li>
+				<li><a href="class-UsuarioPDO.html">UsuarioPDO</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-validardecimal.html">validardecimal</a></li>
+				<li><a href="function-validardni.html">validardni</a></li>
+				<li><a href="function-validaremail.html">validaremail</a></li>
+				<li><a href="function-validarentero.html">validarentero</a></li>
+				<li><a href="function-validarfecha.html">validarfecha</a></li>
+				<li><a href="function-validarhora.html">validarhora</a></li>
+				<li><a href="function-validarpassword.html">validarpassword</a></li>
+				<li><a href="function-validartexto.html">validartexto</a></li>
+				<li><a href="function-validartextolongitud.html">validartextolongitud</a></li>
+				<li><a href="function-validartextonumero.html">validartextonumero</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Usuario</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				<p>Patricia Martínez Lucena
+Fecha de última modificación: 26/01/2017</p><br>
+			<b>Located at</b> <a href="source-class-Usuario.html#15-100" title="Go to source code">model/Usuario.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Usuario.html#23-37" title="Go to source code">__construct</a>( <span>string <var>$codUsuario</var></span>, <span>string <var>$descUsuario</var></span>, <span>string <var>$password</var></span>, <span>string <var>$perfil</var></span>, <span>string <var>$ultimaConexion</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Constructor del objeto.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Constructor del objeto.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codUsuario</var></dt>
+					<dd>Código del usuario</dd>
+					<dt><var>$descUsuario</var></dt>
+					<dd>Descripción del usuario</dd>
+					<dt><var>$password</var></dt>
+					<dd>Contraseña del usuario</dd>
+					<dt><var>$perfil</var></dt>
+					<dd>Perfil del usuario</dd>
+					<dt><var>$ultimaConexion</var>,…</dt>
+					<dd>Última conexión del usuario a la aplicación</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validarUsuario" id="_validarUsuario">
+
+		<td class="attributes"><code>
+			 public static
+
+			<code><a href="class-Usuario.html">Usuario</a></code>|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validarUsuario">#</a>
+		<code><a href="source-class-Usuario.html#38-54" title="Go to source code">validarUsuario</a>( <span>string <var>$codUsuario</var></span>, <span>string <var>$password</var></span> )</code>
+
+		<div class="description short">
+			<p>Instancia un objeto Usuario.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Instancia un objeto Usuario.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codUsuario</var></dt>
+					<dd>Código del usuario</dd>
+					<dt><var>$password</var></dt>
+					<dd>Contraseña del usuario</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Usuario.html">Usuario</a></code>|null<br>Objeto usuario / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCodUsuario" id="_getCodUsuario">
+
+		<td class="attributes"><code>
+			 public 
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCodUsuario">#</a>
+		<code><a href="source-class-Usuario.html#55-65" title="Go to source code">getCodUsuario</a>( <span>string <var>$codUsuario</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene el código de un usuario.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene el código de un usuario.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codUsuario</var>,…</dt>
+					<dd>Código del usuario</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null<br>Código del usuario / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDescUsuario" id="_getDescUsuario">
+
+		<td class="attributes"><code>
+			 public 
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDescUsuario">#</a>
+		<code><a href="source-class-Usuario.html#66-76" title="Go to source code">getDescUsuario</a>( <span>string <var>$descUsuario</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene la descripción de un usuario.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene la descripción de un usuario.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$descUsuario</var>,…</dt>
+					<dd>Descripción del usuario</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null<br>Descripción del usuario / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPassword" id="_getPassword">
+
+		<td class="attributes"><code>
+			 public 
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPassword">#</a>
+		<code><a href="source-class-Usuario.html#77-87" title="Go to source code">getPassword</a>( <span>string <var>$password</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene la contraseña de un usuario.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene la contraseña de un usuario.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$password</var>,…</dt>
+					<dd>Contraseña del usuario</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null<br>Contraseña del usuario / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPerfil" id="_getPerfil">
+
+		<td class="attributes"><code>
+			 public 
+
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPerfil">#</a>
+		<code><a href="source-class-Usuario.html#88-98" title="Go to source code">getPerfil</a>( <span>string <var>$perfil</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene el perfil de un usuario.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene el perfil de un usuario.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$perfil</var>,…</dt>
+					<dd>Perfil del usuario</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string|null<br>Perfil del usuario / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="codUsuario" id="$codUsuario">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Usuario.html#19" title="Go to source code"><var>$codUsuario</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$codUsuario" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="descUsuario" id="$descUsuario">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Usuario.html#20" title="Go to source code"><var>$descUsuario</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$descUsuario" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="password" id="$password">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Usuario.html#21" title="Go to source code"><var>$password</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$password" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="perfil" id="$perfil">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Usuario.html#22" title="Go to source code"><var>$perfil</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$perfil" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Mantenimiento API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

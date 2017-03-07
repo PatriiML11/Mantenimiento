@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Departamento | Mantenimiento</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DBPDO.html">DBPDO</a></li>
+				<li class="active"><a href="class-Departamento.html">Departamento</a></li>
+				<li><a href="class-DepartamentoPDO.html">DepartamentoPDO</a></li>
+				<li><a href="class-Usuario.html">Usuario</a></li>
+				<li><a href="class-UsuarioPDO.html">UsuarioPDO</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-validardecimal.html">validardecimal</a></li>
+				<li><a href="function-validardni.html">validardni</a></li>
+				<li><a href="function-validaremail.html">validaremail</a></li>
+				<li><a href="function-validarentero.html">validarentero</a></li>
+				<li><a href="function-validarfecha.html">validarfecha</a></li>
+				<li><a href="function-validarhora.html">validarhora</a></li>
+				<li><a href="function-validarpassword.html">validarpassword</a></li>
+				<li><a href="function-validartexto.html">validartexto</a></li>
+				<li><a href="function-validartextolongitud.html">validartextolongitud</a></li>
+				<li><a href="function-validartextonumero.html">validartextonumero</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Departamento</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				<p>Patricia Martínez Lucena
+Fecha de última modificación: 22/02/2017</p><br>
+			<b>Located at</b> <a href="source-class-Departamento.html#11-148" title="Go to source code">model/Departamento.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Departamento.html#15-26" title="Go to source code">__construct</a>( <span>string <var>$codDepartamento</var></span>, <span>string <var>$descDepartamento</var></span>, <span>date <var>$fechaBaja</var></span> )</code>
+
+		<div class="description short">
+			<p>Constructor del objeto.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Constructor del objeto.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var></dt>
+					<dd>Código del departamento</dd>
+					<dt><var>$descDepartamento</var></dt>
+					<dd>Descripción del departamento</dd>
+					<dt><var>$fechaBaja</var></dt>
+					<dd>Fecha de baja del departamento</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buscarDepartamento" id="_buscarDepartamento">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buscarDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#27-42" title="Go to source code">buscarDepartamento</a>( <span>string <var>$descDepartamento</var></span> )</code>
+
+		<div class="description short">
+			<p>Instancia un objeto departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Instancia un objeto departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$descDepartamento</var></dt>
+					<dd>Descripción del departamento</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>Objeto departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buscarDepartamentoPorCodigo" id="_buscarDepartamentoPorCodigo">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buscarDepartamentoPorCodigo">#</a>
+		<code><a href="source-class-Departamento.html#43-58" title="Go to source code">buscarDepartamentoPorCodigo</a>( <span>string <var>$codDepartamento</var></span> )</code>
+
+		<div class="description short">
+			<p>Instancia un objeto departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Instancia un objeto departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var></dt>
+					<dd>Código del departamento</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>Objeto departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listarDepartamentos" id="_listarDepartamentos">
+
+		<td class="attributes"><code>
+			 public static
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listarDepartamentos">#</a>
+		<code><a href="source-class-Departamento.html#59-77" title="Go to source code">listarDepartamentos</a>( <span>string <var>$descDepartamento</var></span> )</code>
+
+		<div class="description short">
+			<p>Instancia uno o varios objetos departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Instancia uno o varios objetos departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$descDepartamento</var></dt>
+					<dd>$codDepartamento Código del departamento.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>Objeto departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insertarDepartamento" id="_insertarDepartamento">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insertarDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#78-90" title="Go to source code">insertarDepartamento</a>( <span>string <var>$codDepartamento</var></span>, <span>string <var>$descDepartamento</var></span>, <span>string <var>$fechaBaja</var></span> )</code>
+
+		<div class="description short">
+			<p>Inserta un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Inserta un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var></dt>
+					<dd>Código del departamento.</dd>
+					<dt><var>$descDepartamento</var></dt>
+					<dd>Descripción del departamento.</dd>
+					<dt><var>$fechaBaja</var></dt>
+					<dd>Fecha de baja del departamento.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Insertado/No insertado
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="borrarDepartamento" id="_borrarDepartamento">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_borrarDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#91-101" title="Go to source code">borrarDepartamento</a>( <span>string <var>$codDepartamento</var></span> )</code>
+
+		<div class="description short">
+			<p>Elimina un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Elimina un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var></dt>
+					<dd>Código del departamento.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Eliminado/No eliminado
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="modificarDepartamento" id="_modificarDepartamento">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_modificarDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#102-114" title="Go to source code">modificarDepartamento</a>( <span>string <var>$codDepartamento</var></span>, <span>string <var>$descDepartamento</var></span>, <span>string <var>$fechaBaja</var></span> )</code>
+
+		<div class="description short">
+			<p>Modifica un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Modifica un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var></dt>
+					<dd>Código del departamento.</dd>
+					<dt><var>$descDepartamento</var></dt>
+					<dd>Descripción del departamento.</dd>
+					<dt><var>$fechaBaja</var></dt>
+					<dd>Fecha de baja del departamento.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean<br>Modificado/No modificado
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCodDepartamento" id="_getCodDepartamento">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCodDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#115-125" title="Go to source code">getCodDepartamento</a>( <span>string <var>$codDepartamento</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene el código de un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene el código de un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$codDepartamento</var>,…</dt>
+					<dd>Código del departamento</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Código del departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDescDepartamento" id="_getDescDepartamento">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDescDepartamento">#</a>
+		<code><a href="source-class-Departamento.html#126-136" title="Go to source code">getDescDepartamento</a>( <span>string <var>$descDepartamento</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene la descripción de un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene la descripción de un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$descDepartamento</var>,…</dt>
+					<dd>Descripción del departamento</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Descripción del departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFechaBaja" id="_getFechaBaja">
+
+		<td class="attributes"><code>
+			 public 
+
+			date
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFechaBaja">#</a>
+		<code><a href="source-class-Departamento.html#137-147" title="Go to source code">getFechaBaja</a>( <span>date <var>$fechaBaja</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Obtiene la fecha de baja de un departamento.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Obtiene la fecha de baja de un departamento.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fechaBaja</var>,…</dt>
+					<dd>Fecha de baja del departamento</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					date<br>Fecha de baja del departamento / null
+				</div>
+
+
+				<h4>Author</h4>
+				<div class="list">
+						Patricia Martínez Lucena<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="codDepartamento" id="$codDepartamento">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Departamento.html#12" title="Go to source code"><var>$codDepartamento</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$codDepartamento" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="descDepartamento" id="$descDepartamento">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Departamento.html#13" title="Go to source code"><var>$descDepartamento</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$descDepartamento" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="fechaBaja" id="$fechaBaja">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Departamento.html#14" title="Go to source code"><var>$fechaBaja</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$fechaBaja" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Mantenimiento API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
